@@ -1,0 +1,35 @@
+public class Iphone {
+
+    public static void main(String[] args) {
+
+        System.out.println("Mensagem");
+        pedidoMusica();
+        Navegador();
+        atenderTelefone();
+    }
+    public static void pedidoMusica(){
+        String nome = "supermassive_blackHole";
+        String artista = "muse";
+        double tempo = 344;
+        System.out.println(""+nome);
+        System.out.println(""+artista);
+        System.out.println(""+tempo);
+
+    }
+    public static void atenderTelefone(){
+        String Numero = "8_888_888_888";
+        String Nome = "Kurt_Kubent";
+        boolean Correiodevoz = true;
+        System.out.println(""+Numero);
+        System.out.println(""+Nome);
+        System.out.println("Há mensagens no correio de voz:"+Correiodevoz);
+
+    }
+    public static void Navegador(){
+        System.out.println("Atualizar Pagina");
+        System.out.println("Nova Aba");
+        System.out.println("exibir Pagina");
+
+    }    
+}
+
